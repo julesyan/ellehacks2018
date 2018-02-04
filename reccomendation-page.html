@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reccomendation-page.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+  <script type="text/javascript" src="./slick/slick.min.js"></script>
+<!-- <script type="text/javascript" src="./js/main.js"></script> -->
+  <title>MediaHub</title>
+</head>
+
+<body>
+  <div class="reccomendation-page">
+    <div class="nav clearfix">
+      <div class="logo">
+        <img src="./imgs/logo.png" alt="">MediaHub
+      </div>
+      <div class="navigation">
+        <a href="./dashboard.html">Home</a>
+        <a href="./reccomendation-page.html" class="active">Reccomendations</a>
+        <a>Current</a>
+        <a>Friends</a>
+      </div>
+      <div class="dropdown user">
+        <div class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <img src="./imgs/user-icon.png" alt="">Janice<i class="fa fa-chevron-down"></i>
+        </div>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+          <!-- <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li> -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="header">
+      Reccomendations
+    </div>
+
+    <div class="reccomendations movies">
+      <div class="title">
+        Movies
+      </div>
+      <div class="row">
+        <button type="button" name="button" class="prev next-btn">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="content">
+          <div class="movie-recc">
+            <img src="./imgs/movies/divergent.jpg" alt="...">
+            <img src="./imgs/movies/fight-club.jpg" alt="...">
+            <img src="./imgs/movies/gaurdians.jpg" alt="...">
+            <img src="./imgs/movies/jaws.jpg" alt="...">
+            <img src="./imgs/movies/jones.jpeg" alt="...">
+            <img src="./imgs/movies/oblivion.jpg" alt="...">
+            <img src="./imgs/movies/poc.jpg" alt="...">
+            <img src="./imgs/movies/the-shawshank-redemption.jpg" alt="...">
+            <img src="./imgs/movies/thor.jpg" alt="...">
+            <img src="./imgs/movies/titanic.jpg" alt="...">
+          </div>
+        </div>
+        <button type="button" name="button" class="next next-btn">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div class="reccomendations books">
+      <div class="title">
+        Books
+      </div>
+      <div class="row">
+        <button type="button" name="button" class="prev next-btn">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="content">
+          <div class="book-recc">
+            <img src="./imgs/books/1984.jpg" alt="...">
+            <img src="./imgs/books/animal-farm.jpg" alt="...">
+            <img src="./imgs/books/bernadette.jpg" alt="...">
+            <img src="./imgs/books/carnival.jpg" alt="...">
+            <img src="./imgs/books/diary.jpg" alt="...">
+            <img src="./imgs/books/gatsby.jpg" alt="...">
+            <img src="./imgs/books/harriet.jpg" alt="...">
+            <img src="./imgs/books/owl.jpg" alt="...">
+            <img src="./imgs/books/rj.jpg" alt="...">
+            <img src="./imgs/books/road.jpg" alt="...">
+            <img src="./imgs/books/stars.jpeg" alt="...">
+            <img src="./imgs/books/thrones.jpg" alt="...">
+          </div>
+        </div>
+        <button type="button" name="button" class="next next-btn">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div class="reccomendations tv">
+      <div class="title">
+        TV Shows
+      </div>
+      <div class="row">
+        <button type="button" name="button" class="prev next-btn">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="content">
+          <div class="tv-recc">
+            <img src="./imgs/tv/arrow.jpg" alt="...">
+            <img src="./imgs/tv/bigbang.jpg" alt="...">
+            <img src="./imgs/tv/black-mirror.jpg" alt="...">
+            <img src="./imgs/tv/crow.jpg" alt="...">
+            <img src="./imgs/tv/doc.jpg" alt="...">
+            <img src="./imgs/tv/flash.jpg" alt="...">
+            <img src="./imgs/tv/got.jpg" alt="...">
+            <img src="./imgs/tv/greys.jpg" alt="...">
+            <img src="./imgs/tv/riverdale.jpg" alt="...">
+            <img src="./imgs/tv/star.jpg" alt="...">
+            <img src="./imgs/tv/stranger.jpg" alt="...">
+            <img src="./imgs/tv/supergirl.jpg" alt="...">
+            <img src="./imgs/tv/us.jpg" alt="...">
+          </div>
+        </div>
+        <button type="button" name="button" class="next next-btn">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div class="reccomendations podcasts">
+      <div class="title">
+        Podcasts
+      </div>
+      <div class="row">
+        <button type="button" name="button" class="prev next-btn">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="content">
+          <div class="podcasts-recc">
+            <img src="./imgs/podcasts/burn.jpg" alt="...">
+            <img src="./imgs/podcasts/moth.jpg" alt="...">
+            <img src="./imgs/podcasts/news.jpg" alt="...">
+            <img src="./imgs/podcasts/stuff.jpg" alt="...">
+            <img src="./imgs/podcasts/theories.jpg" alt="...">
+          </div>
+        </div>
+        <button type="button" name="button" class="next next-btn">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.movie-recc').slick({
+      slidesToShow: 6,
+      arrows: true,
+      prevArrow: $('.movies .prev.next-btn'),
+			nextArrow: $('.movies .next.next-btn'),
+      variableWidth: true,
+    });
+    $('.book-recc').slick({
+      slidesToShow: 6,
+      arrows: true,
+      prevArrow: $('.books .prev.next-btn'),
+			nextArrow: $('.books .next.next-btn'),
+      variableWidth: true,
+    });
+    $('.tv-recc').slick({
+      slidesToShow: 6,
+      arrows: true,
+      prevArrow: $('.tv .prev.next-btn'),
+			nextArrow: $('.tv .next.next-btn'),
+      variableWidth: true,
+    });
+    $('.podcasts-recc').slick({
+      slidesToShow: 6,
+      arrows: true,
+      prevArrow: $('.podcasts .prev.next-btn'),
+			nextArrow: $('.podcasts .next.next-btn'),
+      variableWidth: true,
+    });
+  });
+</script>
+
+</html>

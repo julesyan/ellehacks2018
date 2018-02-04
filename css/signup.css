@@ -1,0 +1,71 @@
+.signup{
+  background: #626262;
+  width: 100vw;
+  height: 100vh;
+}
+.signup .links{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.signup .links i{
+  padding-right: 10px;
+}
+
+.signup .logo{
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.signup .logo img{
+  height: 100%;
+  padding: 30px;
+}
+.signup .content{
+  background: #F6F6F6;
+  margin: auto;
+  padding: 50px;
+  border-radius: 5px;
+  width: 50%;
+}
+.signup .content .title{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.signup .content .signup-form{
+  text-align: center;
+}
+
+.signup .content .signup-form .form-group{
+  position: relative;
+}
+
+.signup .content .signup-form .form-group input{
+  margin: 20px 0;
+  padding-left: 35px;
+}
+
+.signup .content .signup-form .form-group i{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #9ACA3E;
+}
+
+.signup .content .signup-form .btn{
+  background-color: #9ACA3E;
+  border-color: #8ab33b;
+  padding: 5px 50px;
+  font-size: 15px;
+}
+
+.signup .content .signup-form .btn:hover{
+  background-color: #6E9720;
+  color: white;
+}

@@ -1,0 +1,115 @@
+.reccomendation-page{
+  background: #626262;
+}
+
+.reccomendation-page .nav{
+  height: 100px;
+}
+
+.reccomendation-page .nav div.navigation{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 35px;
+  margin-left: 30px;
+}
+.reccomendation-page .nav div.navigation a{
+  display: inline;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.reccomendation-page .nav div.navigation a:hover,
+.reccomendation-page .nav div.navigation a.active{
+  border-bottom: 5px solid #9ACA3E;
+  opacity: 1;
+}
+
+.reccomendation-page .nav .logo{
+  height: 100%;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.reccomendation-page .nav .logo img{
+  height: 100%;
+  padding: 10px;
+}
+
+.reccomendation-page .nav .user{
+  height: 50px;
+  float: right;
+  color: white;
+  padding: 10px 0;
+  border-radius: 0 0 0 5px;
+}
+
+.reccomendation-page .nav .user:hover{
+  background: #3A3A3A;
+}
+
+.reccomendation-page .nav .user .dropdown-toggle{
+  height: 100%;
+}
+
+.reccomendation-page .nav .user .dropdown-toggle img{
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.reccomendation-page .nav .user .dropdown-toggle i{
+  padding: 0 10px;
+  color: #9ACA3E;
+}
+
+.reccomendation-page .header{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 0px 5%;
+  border-bottom: 5px solid #9ACA3E;
+}
+
+.reccomendation-page .reccomendations{
+  padding: 30px 0;
+}
+
+.reccomendation-page .reccomendations .title{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 20px 5%;
+}
+
+.reccomendation-page .reccomendations .content{
+  margin: auto;
+  width: 90%;
+}
+
+.reccomendation-page .reccomendations .row{
+  position: relative;
+}
+
+.reccomendation-page .reccomendations .next-btn{
+  background: white;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+}
+.reccomendation-page .reccomendations .next-btn.prev{
+  left: 30px;
+}
+.reccomendation-page .reccomendations .next-btn.next{
+  right: 30px;
+}
+.reccomendation-page .reccomendations img{
+  padding: 0 10px;
+  max-height: 300px;
+}
